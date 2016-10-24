@@ -21,6 +21,7 @@ header {
 
 a, a:visited {
   color: white;
+  text-align: center;
 }
 
 .my-list {
@@ -31,22 +32,45 @@ a, a:visited {
 
 .my-list li {
   padding: 0.5em 0 0.5em 1em;
+  text-align: center;
 }
 
 /**
 TITLE
 */
 
-#month-title {
-  text-align: center;
+#header {
+  height: 300px
+  display: flex;
+  flex-direction: column;
+
 }
 
+#name {
+  color: white;
+  text-align: center;
+  background-image: url('sky.jpeg');
+  height: 300px;
+
+  font-family: "Helvetica"
+
+}
+
+h1 {
+  margin: 0;
+}
+
+#codebackground {
+  width: 100%;
+  height: auto;
+}
 /**
 MAIN ARTICLE
 */
 
 #main-article {
   padding: 0 0.75em 0 0.75em;
+
 }
 
 /**
@@ -58,7 +82,7 @@ EVENTS
   flex-direction: column;
 }
 
-.event {
+.event {  
   display: flex;
   flex-direction: column;
   padding: 0.75em;
@@ -88,24 +112,24 @@ footer {
   padding: 0.5em 0 0.5em 1em;
 }
 /*.fa-twitter:before {
-  font-size: 20px;
-  color: #00c7ff;
-  content: "\f099";
-  float: right;
+font-size: 20px;
+color: #00c7ff;
+content: "\f099";
+float: right;
 }
 
 .fa-facebook:before {
-  font-size: 20px;
-  color: #00c7ff;
-  content: "\f09a";
-  float: right;
+font-size: 20px;
+color: #00c7ff;
+content: "\f09a";
+float: right;
 }
 
 .fa-instagram:before {
-  font-size: 20px;
-  color: #00c7ff;
-  content: "\f09a";
-  float: right;
+font-size: 20px;
+color: #00c7ff;
+content: "\f09a";
+float: right;
 }*/
 
 
@@ -126,7 +150,7 @@ footer {
   EVENTS
   */
 
-#events {
+  #events {
     flex-direction: row;
   }
 
