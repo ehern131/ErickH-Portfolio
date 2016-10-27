@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Oswald;
 }
 
 li {
@@ -20,19 +21,20 @@ header {
 }
 
 a, a:visited {
+  font-family: Oswald;
+  font-weight: lighter;
   color: white;
-  text-align: center;
 }
 
 .my-list {
   margin: 0;
   padding: 0;
   display: flex;
+  text-align: center;
 }
 
 .my-list li {
   padding: 0.5em 0 0.5em 1em;
-  text-align: center;
 }
 
 /**
@@ -43,16 +45,17 @@ TITLE
   height: 300px
   display: flex;
   flex-direction: column;
-
 }
 
 #name {
-  color: white;
+  color: black;
   text-align: center;
-  background-image: url('sky.jpeg');
-  height: 300px;
-
-  font-family: "Helvetica"
+  height: 60px;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Oswald;
+  font-weight: lighter;
 
 }
 
@@ -74,6 +77,30 @@ MAIN ARTICLE
 }
 
 /**
+Languages
+*/
+
+h3 {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+#logo-list{
+ list-style-type: none;
+ display: flex;
+ margin:right auto;
+}
+
+.icon-container{
+ text-align: center;
+ padding-bottom: 15px;
+}
+.icon {
+ font-size: 4.5rem;
+  padding: 0 10px 0 10px;
+}
+
+/**
 EVENTS
 */
 
@@ -82,15 +109,25 @@ EVENTS
   flex-direction: column;
 }
 
-.event {  
+#event-title {
+  padding: 0 0.75em 0 0.75em;
+  margin: 0 0 18px 0
+}
+
+.event {
   display: flex;
   flex-direction: column;
-  padding: 0.75em;
+  padding: 0 0.75em 0 0.75em;
+  margin: 0;
 }
 
 .event img{
   width: 100%;
   height: auto;
+}
+
+h5 {
+  margin-top: 0;
 }
 /**
 FOOTER
@@ -110,7 +147,10 @@ footer {
 
 .social-media li {
   padding: 0.5em 0 0.5em 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /*.fa-twitter:before {
 font-size: 20px;
 color: #00c7ff;
@@ -157,4 +197,15 @@ float: right;
   /**
   FOOTER
   */
-}
+  .social-media {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin:right auto;
+    font-size: 20px;
+  }
+
+  .social-media li {
+    padding: 0.5em 0 0.5em 1em;
+
+  }
