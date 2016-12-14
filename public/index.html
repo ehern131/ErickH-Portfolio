@@ -9,11 +9,12 @@
   href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" media="screen" title="no title">
   <link rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title">
-  <link rel="stylesheet"
-  href="./style.css" media="screen" title="no title">
+  <link rel="stylesheet" href="./style.css" media="screen" title="no title">
   <link rel="stylesheet"
   href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="./effects.js">
+  <script src="jquery-3.1.1.min.js"></script>
 </head>
 
 
@@ -23,7 +24,7 @@
     <nav>
       <ul class="myList">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href=".icons">About</a></li>
         <!-- <li><a href="#">Email: Ehern131@fiu.edu</a></li> -->
       </ul>
     </nav>
@@ -33,36 +34,63 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-  <section id="main-article">
-
-    <!-- <p>Seeking a challenging software development opportunity in a dynamic environment where
-    innovation, education and sense of ownership are valued and encouraged.</p>
-  </section> -->
-
-  <div class="icons">
-    <h3 id="languages">Languages</h3>
-    <div class="icon-container">
-      <i class=" icon devicon-ruby-plain-wordmark colored"></i>
-      <i class=" icon devicon-rails-plain-wordmark colored"></i>
-      <i class=" icon devicon-html5-plain-wordmark colored"></i>
-      <i class=" icon devicon-javascript-plain colored"></i>
-      <i class=" icon devicon-css3-plain-wordmark colored"></i>
-    </div>
+  <div class="projects">
+    <ul class="row1">
+      <li class="project1"></li>
+      <li class="project2"></li>
+      <li class="project3"></li>
+      <li class="project4"></li>
+      </div>
+    </ul>
   </div>
 
-  <!-- <h3 id="event-title">Projects</h3>
-  <section id="events">
-  <div class="event">
-  <h5>City of Hialeah - Sponsor Media Kit</h5>
-  <img class="mediakit" src="mediakit.jpg" alt="event photo"/>
-  <p>Those guys are inside you building a piece of shit Ethan! They're inside you building a monument to compromise! Fuck them, fuck those people, fuck this whole thing Ethan. I mixed in some praying mantis DNA.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+  <center><div class="grayframe">
+    <img src="#" class="travelize">
+    <center><div class="divider"></div><p class="words">A simple, interactive trip creator.<br>that allows users to collaborate,<br> live code, run it and save sessions.</p></center>
+    <a href="http://www.codecollab.co/" class="projectlink" target="_blank">VIEW CODECOLLAB.</a><br>
+  </div></center> -->
+
+
+
+  <!-- <section id="main-article"> -->
+
+  <!-- <p>Seeking a challenging software development opportunity in a dynamic environment where
+  innovation, education and sense of ownership are valued and encouraged.</p>
+</section> -->
+
+<!-- <div class="icons">
+<h3 id="languages">Languages</h3>
+<div class="icon-container">
+<i class=" icon devicon-ruby-plain-wordmark colored"></i>
+<i class=" icon devicon-rails-plain-wordmark colored"></i>
+<i class=" icon devicon-html5-plain-wordmark colored"></i>
+<i class=" icon devicon-javascript-plain colored"></i>
+<i class=" icon devicon-css3-plain-wordmark colored"></i>
+</div>
+</div> -->
+
+<!-- <h3 id="event-title">Projects</h3>
+<section id="events">
+<div class="event">
+<h5>City of Hialeah - Sponsor Media Kit</h5>
+<img class="mediakit" src="mediakit.jpg" alt="event photo"/>
+<p>Those guys are inside you building a piece of shit Ethan! They're inside you building a monument to compromise! Fuck them, fuck those people, fuck this whole thing Ethan. I mixed in some praying mantis DNA.</p>
 </div>
 
 <div class="event">
@@ -77,56 +105,56 @@
 <p>Those guys are inside you building a piece of shit Ethan! They're inside you building a monument to compromise! Fuck them, fuck those people, fuck this whole thing Ethan. I mixed in some praying mantis DNA.</p>
 </div>
 </section> -->
-<div id="portfolio" class="section">
+<!-- <div id="portfolio" class="section">
 
-  <div class="section-container">
+<div class="section-container">
 
-    <div class="title">
-      <h2>My Projects</h2>
-    </div>
+<div class="title">
+<h2>My Projects</h2>
+</div>
 
-    <div class="thumbnails">
-      <ul class="icons2">
-        <li>
-          <a href="#" target="_blanc">
-            <a href="https://github.com/ehern131/The_Taquiza_Experience/blob/master/the_taquiza_experience.rb"><i  id="cutlery" class="fa fa-cutlery" aria-hidden="true"></i></a>
-            <span>
-              <h2>The Taquiza Experience Menu App</h2>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blanc">
-            <a href="https://github.com/ehern131/Tip-Calculator/blob/master/tipcalculator.rb"><i class="fa fa-calculator" aria-hidden="true"></i></a>
-            <span>
-              <h2>Tip Calculator</h2>
-            </span>
-          </a>
-        </li>
-        <li >
-          <a href="#" target="_blanc">
-            <a href="https://github.com/ehern131/Repl-Game-/blob/master/helpingharambe.rb"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
-            <span>
-              <h2>REPL Video Game</h2>
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- end-thumbnails -->
+<div class="thumbnails">
+<ul class="icons2">
+<li>
+<a href="#" target="_blanc">
+<a href="https://github.com/ehern131/The_Taquiza_Experience/blob/master/the_taquiza_experience.rb"><i  id="cutlery" class="fa fa-cutlery" aria-hidden="true"></i></a>
+<span>
+<h2>The Taquiza Experience Menu App</h2>
+</span>
+</a>
+</li>
+<li>
+<a href="#" target="_blanc">
+<a href="https://github.com/ehern131/Tip-Calculator/blob/master/tipcalculator.rb"><i class="fa fa-calculator" aria-hidden="true"></i></a>
+<span>
+<h2>Tip Calculator</h2>
+</span>
+</a>
+</li>
+<li >
+<a href="#" target="_blanc">
+<a href="https://github.com/ehern131/Repl-Game-/blob/master/helpingharambe.rb"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
+<span>
+<h2>REPL Video Game</h2>
+</span>
+</a>
+</li>
+</ul>
+</div> -->
+<!-- end-thumbnails -->
 
-  </div>
+<!-- </div> -->
 
 
-  <footer id="footer">
-    <nav id="footer2">
-      <ul class="social-media">
-        <li><a href="https://twitter.com/EBello131"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/ehern?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a href="https://github.com/ehern131"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-      </ul>
-    </nav>
-  </footer>
+<!-- <footer id="footer">
+<nav id="footer2">
+<ul class="social-media">
+<li><a href="https://twitter.com/EBello131"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li><a href="https://www.linkedin.com/in/ehern?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+<li><a href="https://github.com/ehern131"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+</ul>
+</nav>
+</footer> -->
 
 
 
