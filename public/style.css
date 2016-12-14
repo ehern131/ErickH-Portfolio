@@ -90,7 +90,59 @@ PROJECTS
 
 
 
+.projects {
+  width: 100%;
+  float: right;
+  position: relative;
+  padding-bottom: 100%;
+  display: flex;
+}
 
+.row1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  flex-direction: row;
+}
+
+.project1 {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  background-image: url('back4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project2 {
+  height: 80%;
+  width: 100%;
+  float: right;
+  background-image: url('back3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project3 {
+  height: 80%;
+  width: 100%;
+  float: right;
+  background-image: url('back2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project4 {
+  height: 80%;
+  width: 100%;
+  float: right;
+  background-image: url('travelize.png');
+  background-size: cover;
+  background-position: center;
+}
 
 
 
